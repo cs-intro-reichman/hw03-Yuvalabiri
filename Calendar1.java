@@ -48,6 +48,7 @@ public class Calendar1 {
 	 // Side effects: changes the static variables dayOfMonth, month, year, dayOfWeek, nDaysInMonth.
 	 private static void advance(int dayOfMonth, int month, int year) {
 		// Replace this comment with your code
+		 // #feedback - the advance function should only advance the date, so a for loop is not needed here.
 		for(dayOfMonth = 1; dayOfMonth <= nDaysInMonth(month, year); dayOfMonth++){
 			System.out.print(dayOfMonth + "/" + month + "/" + year);
 

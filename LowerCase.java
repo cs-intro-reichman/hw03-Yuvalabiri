@@ -19,7 +19,7 @@ public class LowerCase {
                 chr = (char)(chr + 32);
                 res = res + chr;
             } else {
-                res = res + chr;
+                res = res + chr; // #feedback - you can avoid having this else and extract "res = res + chr;" outside of the "if" because we always need to update res.
             }
         }
         return res;
